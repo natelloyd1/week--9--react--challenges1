@@ -1,8 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Paragraph = ({children}) => (
-    <p>{children}</p>
-);
+class Paragraph extends Component {
+
+render() {
+    let { text } = this.props;
+    return (
+        <header>
+        <p>{ text }</p>
+        </header>
+        );
+    }
+}
 
 export default Paragraph;
 
