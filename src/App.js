@@ -6,9 +6,9 @@ import Stuff from "./Stuff";
 
 const App = () => (
   <>
-  <Stuff />
+  <Stuff Square = {(true)} />
   </>
-  ); 
+  );  
 
 // export our component
 export default App;

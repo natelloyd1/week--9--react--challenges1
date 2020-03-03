@@ -1,11 +1,16 @@
 import React from "react";
 
-    let names = ["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"];
-
-    let People = () => (
-        <div>
-          <ul>{names.map(name => <li key={name}> {name} </li>)}</ul>
-        </div>
-      );
+    const People = ({names}) => {
+        return names ?
+        <ul>
+            {
+                names.map((name, i) => 
+                    <li key={i}> {name}</li>
+                )
+            }
+        </ul> 
+        : 
+        <p>Nothing to see here!</p>  
+    }; 
 
 export default People;
