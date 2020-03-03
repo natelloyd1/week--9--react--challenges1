@@ -1,13 +1,14 @@
 // import the React library
 import React from "react";
 import Stuff from "./Stuff";
+import './App.css'; 
 
 // create our component: just a function that returns JSX
 
 const App = () => (
-  <>
-  <Stuff Square = {(true)} />
-  </>
+
+  <Stuff square = {true} />
+
   );  
 
 // export our component
