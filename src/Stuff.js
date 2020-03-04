@@ -4,6 +4,10 @@ import Paragraph from "./Paragraph";
 import Square from "./Square"; 
 import People from "./People"; 
 import Clicked from "./Clicked";
+import Toggle from "./Toggle"; 
+import CountThings from "./CountThings"; 
+import StepCounter from "./StepCounter"; 
+// import CatchMeIfYouCan from "./CatchMeIfYouCan"; 
 
 let Stuff = ( {square} ) => (
     <>
@@ -13,6 +17,10 @@ let Stuff = ( {square} ) => (
     <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]}/>
     <People />
     <Clicked />
+    <Toggle initial="Hello" alternate="World" />
+    <CountThings initial={ 50 } max={ 100 } />
+    <StepCounter max={ 100 } step={ 5 } />
+    {/* <CatchMeIfYouCan jump={ 100 }></CatchMeIfYouCan> */}
     </>
 );
     export default Stuff;

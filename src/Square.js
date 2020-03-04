@@ -9,7 +9,7 @@ class Square extends Component {
       this.state = { clicked: false}; 
 
       this.handleClick = this.handleClick.bind(this); 
-  }
+    }
     handleClick() {
         this.setState({ clicked:!this.state.clicked })
     }
