@@ -33,6 +33,24 @@
   background-color: red; 
 }
 
+nav{
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vw;
+  background-color: #282c34;
+  color: white; 
+}
+
+.nav-links {
+  justify-content: space-evenly; 
+  list-style: none; 
+  text-decoration: none;
+  text-decoration-line: none;
+  color: white;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
