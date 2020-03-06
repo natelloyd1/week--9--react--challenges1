@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/bootcamp--week-09--react/static/css/main.bd7c0b29.chunk.css",
-    "main.js": "/bootcamp--week-09--react/static/js/main.c3e57718.chunk.js",
-    "main.js.map": "/bootcamp--week-09--react/static/js/main.c3e57718.chunk.js.map",
-    "runtime-main.js": "/bootcamp--week-09--react/static/js/runtime-main.87891dfa.js",
-    "runtime-main.js.map": "/bootcamp--week-09--react/static/js/runtime-main.87891dfa.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/bootcamp--week-09--react/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.230aa9d0.chunk.js": "/bootcamp--week-09--react/static/js/2.230aa9d0.chunk.js",
-    "static/js/2.230aa9d0.chunk.js.map": "/bootcamp--week-09--react/static/js/2.230aa9d0.chunk.js.map",
-    "index.html": "/bootcamp--week-09--react/index.html",
-    "precache-manifest.c3f520bb8bc47fb4233b3233fe5ff784.js": "/bootcamp--week-09--react/precache-manifest.c3f520bb8bc47fb4233b3233fe5ff784.js",
-    "service-worker.js": "/bootcamp--week-09--react/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/bootcamp--week-09--react/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.bd7c0b29.chunk.css.map": "/bootcamp--week-09--react/static/css/main.bd7c0b29.chunk.css.map",
-    "static/js/2.230aa9d0.chunk.js.LICENSE.txt": "/bootcamp--week-09--react/static/js/2.230aa9d0.chunk.js.LICENSE.txt"
+    "main.css": "/week--9--react--challenges1/static/css/main.bd7c0b29.chunk.css",
+    "main.js": "/week--9--react--challenges1/static/js/main.40e20866.chunk.js",
+    "main.js.map": "/week--9--react--challenges1/static/js/main.40e20866.chunk.js.map",
+    "runtime-main.js": "/week--9--react--challenges1/static/js/runtime-main.871df7d1.js",
+    "runtime-main.js.map": "/week--9--react--challenges1/static/js/runtime-main.871df7d1.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/week--9--react--challenges1/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.5e1cb24e.chunk.js": "/week--9--react--challenges1/static/js/2.5e1cb24e.chunk.js",
+    "static/js/2.5e1cb24e.chunk.js.map": "/week--9--react--challenges1/static/js/2.5e1cb24e.chunk.js.map",
+    "index.html": "/week--9--react--challenges1/index.html",
+    "precache-manifest.d55f46595a16cfae870d074eeff6d75e.js": "/week--9--react--challenges1/precache-manifest.d55f46595a16cfae870d074eeff6d75e.js",
+    "service-worker.js": "/week--9--react--challenges1/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/week--9--react--challenges1/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.bd7c0b29.chunk.css.map": "/week--9--react--challenges1/static/css/main.bd7c0b29.chunk.css.map",
+    "static/js/2.5e1cb24e.chunk.js.LICENSE.txt": "/week--9--react--challenges1/static/js/2.5e1cb24e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.87891dfa.js",
+    "static/js/runtime-main.871df7d1.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.230aa9d0.chunk.js",
+    "static/js/2.5e1cb24e.chunk.js",
     "static/css/main.bd7c0b29.chunk.css",
-    "static/js/main.c3e57718.chunk.js"
+    "static/js/main.40e20866.chunk.js"
   ]
 }
