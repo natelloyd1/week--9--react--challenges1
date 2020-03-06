@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bootcamp--week-09--react/static/css/main.bd7c0b29.chunk.css",
+    "main.js": "/bootcamp--week-09--react/static/js/main.c3e57718.chunk.js",
+    "main.js.map": "/bootcamp--week-09--react/static/js/main.c3e57718.chunk.js.map",
+    "runtime-main.js": "/bootcamp--week-09--react/static/js/runtime-main.87891dfa.js",
+    "runtime-main.js.map": "/bootcamp--week-09--react/static/js/runtime-main.87891dfa.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/bootcamp--week-09--react/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.230aa9d0.chunk.js": "/bootcamp--week-09--react/static/js/2.230aa9d0.chunk.js",
+    "static/js/2.230aa9d0.chunk.js.map": "/bootcamp--week-09--react/static/js/2.230aa9d0.chunk.js.map",
+    "index.html": "/bootcamp--week-09--react/index.html",
+    "precache-manifest.c3f520bb8bc47fb4233b3233fe5ff784.js": "/bootcamp--week-09--react/precache-manifest.c3f520bb8bc47fb4233b3233fe5ff784.js",
+    "service-worker.js": "/bootcamp--week-09--react/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/bootcamp--week-09--react/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.bd7c0b29.chunk.css.map": "/bootcamp--week-09--react/static/css/main.bd7c0b29.chunk.css.map",
+    "static/js/2.230aa9d0.chunk.js.LICENSE.txt": "/bootcamp--week-09--react/static/js/2.230aa9d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87891dfa.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.230aa9d0.chunk.js",
+    "static/css/main.bd7c0b29.chunk.css",
+    "static/js/main.c3e57718.chunk.js"
+  ]
+}
