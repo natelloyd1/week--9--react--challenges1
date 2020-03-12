@@ -1,19 +1,26 @@
-// import the React library
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
+
 import React from "react";
 import Nav from "./Nav"; 
 import Stuff from "./Stuff";
 import Header from "./Header";
 import People from "./People"; 
 import Clicked from "./Clicked";
+import Clicked2 from "./Clicked2"; 
+import ClickedReducer from "./ClickedReducer"; 
+import Toggle from "./Toggle"; 
+import Toggle2 from "./Toggle2"; 
 import Length from "./Length"; 
 import Paragraph from "./Paragraph";
 import TempConverter from "./TempConverter";
 import PasswordStrength from "./PasswordRename"; 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
 import "./App.css"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CountThings from "./CountThings";
 import StepCounter from "./StepCounter";
+import StepCounter2 from "./StepCounter2"; 
+import Square2 from "./Square2"; 
+// import squareReduce from "./squareReduce"; 
 import FourOhFour from './FourOhFour';
 
 
@@ -26,6 +33,9 @@ function App() {
     <Switch>
       <Route path="/StepCounter">
         <StepCounter max={ 100 } step={ 5 } exact component={StepCounter} />
+      </Route>
+      <Route path="/StepCounter2">
+      <StepCounter2 max={ 100 } step={ 5 } exact component={StepCounter2} />
       </Route>
       <Route path="/Paragraph">
         <Paragraph text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quamquam tu hanc copiosiorem etiam soles dicere. Ubi ut eam caperet aut quando? Videmus igitur ut conquiescere ne infantes quidem possint. Magna laus. Bonum patria: miserum exilium. Sed tu istuc dixti bene Latine, parum plane. Duo Reges: constructio interrete. Ergo hoc quidem apparet, nos ad agendum esse natos." exact component={Paragraph}/>
@@ -44,10 +54,26 @@ function App() {
         <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]}/>
       </Route>
       <Route path="/clicked" exact component={Clicked} />
-      <Route path="/all" exact >
+      <Route path="/clicked2" exact component={Clicked2} />
+      <Route path="/clickedreducer">
+        <ClickedReducer />
+      </Route>
+      <Route path="/square" exact >
         <Stuff square = {true}/>
       </Route>
+      <Route>
+        <squareReduce />
+      </Route>
+      <Route path="/square2" exact >
+        <Square2 />
+      </Route>
       <Route path="/PasswordStrength" exact component={PasswordStrength} />
+      <Route path="/toggle">
+        <Toggle initial="Hello" alternate="World" />
+      </Route>
+      <Route path="/toggle2">
+        <Toggle2 initial="Hello" alternate="World" />
+      </Route>
       <FourOhFour path="/404" component={FourOhFour}/>
       <FourOhFour />
 

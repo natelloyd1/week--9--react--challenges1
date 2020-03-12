@@ -5,7 +5,7 @@ class Clicked extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { clicked: false}; 
+        this.state = { clicked: false }; 
 
         this.handleClick = this.handleClick.bind(this); 
     }

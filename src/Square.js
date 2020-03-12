@@ -30,7 +30,6 @@ class Square extends Component {
         ); 
     }
   }
-
     Square.defaultProps = {
       color: 'hotpink',
     }
