@@ -17,6 +17,7 @@ import PasswordStrength from "./PasswordRename";
 import "./App.css"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CountThings from "./CountThings";
+import CountThingsReduce from "./CountThingsReduce"; 
 import StepCounter from "./StepCounter";
 import StepCounter2 from "./StepCounter2"; 
 import Square2 from "./Square2"; 
@@ -45,6 +46,9 @@ function App() {
       </Route> 
       <Route path="/CountThings">
         <CountThings initial={ 50 } max={ 100 } />
+      </Route>
+      <Route path="/CountThingsReducer"> 
+        <CountThingsReduce />
       </Route>
       <Route path="/TempConverter" exact component={TempConverter}/>
       <Route path="/" exact component={Home} /> 

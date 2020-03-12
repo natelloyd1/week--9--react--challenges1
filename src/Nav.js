@@ -19,6 +19,9 @@ function Nav() {
                     <Link to="/CountThings">
                     <li className="nav-links">Count Things</li>
                     </Link>
+                    <Link to="/countthingsreducer">
+                        <li className="nav-links">Count Things Reducer</li>
+                    </Link>
                     <Link to="/Header">
                     <li className="nav-links">Header</li>
                     </Link>
