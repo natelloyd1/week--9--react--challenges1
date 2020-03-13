@@ -40,11 +40,14 @@ function Nav() {
                     <Link to="/Square">
                     <li className="nav-links">Square</li>
                     </Link>
-                    <Link to="/Square2">
-                        <li className="nav-links">Square2</li>
+                    <Link to="/square2">
+                        <li className="nav-links">Square 2</li>
                     </Link>
-                    <Link to="/squareReduce">
-                        <li className="nav-links">SquareReduce</li>
+                    <Link to="/squarereduce">
+                        <li className="nav-links">Square Reduce</li>
+                    </Link>
+                    <Link to="/squareparent">
+                        <li className="nav-links">Square Parent</li>
                     </Link>
                     <Link to="/StepCounter">
                     <li className="nav-links">Step Counter</li>

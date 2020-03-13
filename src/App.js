@@ -13,7 +13,8 @@ import Toggle2 from "./Toggle2";
 import Length from "./Length"; 
 import Paragraph from "./Paragraph";
 import TempConverter from "./TempConverter";
-import PasswordStrength from "./PasswordRename"; 
+import PasswordStrength from "./PasswordRename";
+import PasswordLift from "./PasswordLift"; 
 import "./App.css"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CountThings from "./CountThings";
@@ -21,6 +22,8 @@ import CountThingsReduce from "./CountThingsReduce";
 import StepCounter from "./StepCounter";
 import StepCounter2 from "./StepCounter2"; 
 import Square2 from "./Square2"; 
+import SquareParent from "./SquareParent";
+import SignUp from "./SignUp"; 
 // import squareReduce from "./squareReduce"; 
 import FourOhFour from './FourOhFour';
 
@@ -65,13 +68,19 @@ function App() {
       <Route path="/square" exact >
         <Stuff square = {true}/>
       </Route>
-      <Route>
+      <Route path="/squarereduce">
         <squareReduce />
       </Route>
-      <Route path="/square2" exact >
-        <Square2 />
+      <Route path="/square2" exact>
+        <Square2 color = "yellow"  />
+      </Route>
+      <Route path="/squareparent">
+        <SquareParent />
       </Route>
       <Route path="/PasswordStrength" exact component={PasswordStrength} />
+      <Route>
+        <SignUp minLength={8} />
+      </Route>
       <Route path="/toggle">
         <Toggle initial="Hello" alternate="World" />
       </Route>
